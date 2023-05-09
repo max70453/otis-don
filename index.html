@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- SEO Meta Tags -->
+        <meta name="description" content="Your description">
+        <meta name="author" content="Your name">
+
+        <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+        <meta property="og:site_name" content="" /> <!-- website name -->
+        <meta property="og:site" content="" /> <!-- website link -->
+        <meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+        <meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+        <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+        <meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+        <meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
+
+        <!-- Webpage Title -->
+        <title>Webpage Title</title>
+
+        <!-- Styles -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link href="./css/bootstrap.min.css" rel="stylesheet">
+        <link href="./css/fontawesome-all.min.css" rel="stylesheet">
+        <link href="./css/customStyle.css" rel="stylesheet">
+        <link href="./css/aos.min.css" rel="stylesheet">
+        <link href="./css/swiper.css" rel="stylesheet">
+        <link href="./css/style.css" rel="stylesheet">
+        
+
+        <!-- Favicon -->
+        <link rel="icon" href="./assets/images/favicon.png">
+    </head>
+    <body>
+        
+        <!-- Navigation -->
+        <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
+            <div class="container">
+
+                <!-- Image Logo -->
+                <a class="navbar-brand logo-image" href="index.html"><img src="./assets/images/otis-logo.png" alt="alternative"></a>
+
+                <!-- Text Logo - Use this if you don't have a graphic logo -->
+                <a class="navbar-brand logo-text" href="index.html">OTIS-DON</a>
+
+                <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault" >
+                    <ul class="navbar-nav ms-auto navbar-nav-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#header">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Услуги</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">О нас</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#plans">Продукция</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false" href="#">Drop</a>
+                            
+                            <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                                <li><a class="dropdown-item" href="article.html">Article Details</a></li>
+                                <li><div class="dropdown-divider"></div></li>
+                                <li><a class="dropdown-item" href="terms.html">Terms Conditions</a></li>
+                                <li><div class="dropdown-divider"></div></li>
+                                <li><a class="dropdown-item" href="privacy.html">Privacy Policy</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Контакты</a>
+                        </li>
+                    </ul>
+                    <span class="nav-item social-icons">
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook-f fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x"></i>
+                            </a>
+                        </span>
+                    </span>
+                </div> <!-- end of navbar-collapse -->
+            </div> <!-- end of container -->
+        </nav> <!-- end of navbar -->
+        <!-- end of navigation -->
+
+        <!-- Home -->
+        <section class="home d-flex align-items-center" id="header">
+            <div class="container text-light py-5"  data-aos="fade-right"> 
+                <h1 class="headline">Линейка  <span class="home_text">премиум</span><br>лифтов OTIS-DON</h1>
+                <p class="para para-light py-3">
+                    Мы производим пассажирские и грузовые лифты грузоподъемностью от 400 до 3000 кг,
+                    больничные лифты, лифты для административных зданий, торговых центров, дошкольных 
+                    и образовательных учреждений
+                </p>
+                <div class="my-3">
+                    <a class="btn" href="#plans">Связаться с нами</a>
+                </div>
+            </div> <!-- end of container -->
+        </section> <!-- end of home -->
+
+        <!-- Information -->
+        <section class="information">
+            <div class="container-fluid">  
+                <div class="row text-light">
+                    <div class="col-lg-4 text-center info p-5" data-aos="zoom-in">
+                        <i class="fas fa-screwdriver fa-3x p-2"></i>
+                        <h4 class="py-3">Ремонт лифтов</h4>
+                        <p class="para-light">Ремонт лифта можно разделить на 2 вида – текущий и капитальный.</p>
+                    </div>
+                    <div class="col-lg-4 text-center info p-5"  data-aos="zoom-in">
+                        <i class="fas fa-stethoscope fa-3x p-2"></i>
+                        <h4 class="py-3">Диагностика лифтов</h4>
+                        <p class="para-light">Диагностика лифтов состоит из цепочки действий, которые направлены на поиск возможных неполадок и их устранение.</p>
+                    </div>
+                    <div class="col-lg-4 text-center info p-5" data-aos="zoom-in">
+                        <i class="fas fa-hand-sparkles fa-3x p-2"></i>
+                        <h4 class="py-3">Обслуживание</h4>
+                        <p class="para-light">Система мер, которая направлена на обеспечение безопасной и бесперебойной работы подъемной конструкции</p>
+                    </div>
+                    <div class="col-lg-4 text-center info p-5" data-aos="zoom-in">
+                        <i class="fas fa-retweet fa-3x p-2"></i>
+                        <h4 class="py-3">Модернизация лифтов</h4>
+                        <p class="para-light">Замена устаревшего оборудования, включая обновление кабины и дверей.</p>
+                    </div>
+                    <div class="col-lg-4 text-center info p-5" data-aos="zoom-in">
+                        <i class="fas fa-lightbulb fa-3x p-2"></i>
+                        <h4 class="py-3">Техническое обслуживание лифтов</h4>
+                        <p class="para-light">Комплекс операций по поддержанию безопасности и работоспособности лифта на стадии его эксплуатации.</p>
+                    </div>
+                    <div class="col-lg-4 text-center info p-5" data-aos="zoom-in">
+                        <i class="fas fa-wrench fa-3x p-2"></i>
+                        <h4 class="py-3">Сопутствующие строительные работы</h4>
+                        <p class="para-light">Все виды строительных работ: «строительно-монтажные работы». ... Строительные работы.</p>
+                    </div>
+                </div>
+            </div> <!-- end of container -->
+        </section> <!-- end of information -->
+
+        <!-- About -->
+        <section class="about d-flex align-items-center text-light py-5" id="about">
+            <div class="container" >
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-7" data-aos="fade-right">
+                        <!-- <p></p> -->
+                        <h1>Подробно об<br> OTIS-DON</h1>
+                        <p class="py-2 para-light">
+                            OTIS-DON это успешный и ответственный бизнес партнер,
+                            которому доверяют крупнейшие мировые производители
+                            лифтового оборудования
+                        </p>
+                        <p class="py-2 para-light">
+                            Мы проектируем, поставляем, устанавливаем и обслуживаем
+                            лифты и эскалаторы по всей ДНР
+                        </p>
+                        <p class="py-2 para-light">
+                            Обслуживаем лифты любых марок и моделей, по ДНР и области
+                        </p>
+                        <p class="py-2 para-light">
+                            Предоставляем расширенную гарантию (до 5 лет) на оборудование и все виды работ
+                        </p>
+                        <p class="py-2 para-light">
+                            Более 150-ти выполненных проектов и довольных заказчиков
+                        </p>
+                        <div class="my-3">
+                            <a class="btn" href="#your-link">Связаться с нами</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 text-center py-4 py-sm-0" data-aos="fade-down"> 
+                        <img class="img-fluid" src="./assets/images/about-lifter.jpg" alt="about" >
+                    </div>
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </section> <!-- end of about -->
+       
+        <!-- Products -->
+        <section class="services d-flex align-items-center py-5" id="services">
+            <div class="container text-light">
+                <div class="text-center pb-4">
+                    <h2 class="py-2">Наша продукция</h2>
+                    <p class="para-light">
+                        Мы производим пассажирские и грузовые лифты грузоподъемностью
+                        от 400 до 3000 кг, больничные лифты, лифты для административных зданий,
+                        торговых центров, дошкольных и образовательных учреждений, эскалаторы,
+                        подъемники для инвалидов, лифты с ременным приводом, а также комплектующие к ним.
+                    </p>
+                </div>
+                <div class="row gy-4 py-2" data-aos="zoom-in">
+                    <div class="col-lg-4">
+                        <div class="card bg-transparent product-card">
+                            <img src="./assets/images/passenger.jpg" alt="">
+                            <h4 class="py-2">ПАССАЖИРСКИЕ</h4>
+                            <p class="para-light">
+                                Лифты для жилого сегмента, грузоподъемностью 
+                                от 400 до 2500 кг, предназначенные для транспортировки людей 
+                                и перевозки грузов
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card bg-transparent product-card">
+                            <img src="./assets/images/hospital.jpg" alt="">
+                            <h4 class="py-2">БОЛЬНИЧНЫЕ</h4>
+                            <p class="para-light">
+                                Максимально адаптированы для перевозки пациентов,
+                                медицинского оборудования и приспособлений для 
+                                передвижения лиц с ограниченными возможностями.
+                            </p>
+                        </div>                    
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card bg-transparent product-card">
+                            <img src="./assets/images/elevator-access.jpg" alt="">
+                            <h4 class="py-2">ГРУЗОВЫЕ</h4>
+                            <p class="para-light">
+                                Грузовые лифты используются на предприятиях, в магазинах,
+                                отелях, ресторанах, больницах. Отвечают всем требованиям по
+                                качеству и размерам
+                            </p>
+                        </div>                    
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card bg-transparent product-card">
+                            <img src="./assets/images/vhodnye.jpg" alt="">
+                            <h4 class="py-2">ПОДЪЕМНИКИ</h4>
+                            <p class="para-light">
+                                Производим надежные, безопасные и долговечные
+                                универсальные устройства нового поколения, помогающие
+                                человеку на кресле-коляске
+                            </p>
+                        </div>                    
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card bg-transparent product-card">
+                            <img src="./assets/images/escalator.jpg" alt="">
+                            <h4 class="py-2">ЭСКАЛАТОРЫ</h4>
+                            <p class="para-light">
+                                Наши эскалаторы универсальны и подходят для установки в
+                                любом общественном пространстве, отвечают строгим требованиям 
+                                безопасности и надежности
+                            </p>
+                        </div>                    
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card bg-transparent product-card">
+                            <img src="./assets/images/aksesuarlar.jpg" alt="">
+                            <h4 class="py-2">ЗАПАСНЫЕ ЧАСТИ</h4>
+                            <p class="para-light">
+                                У нас вы найдете большой выбор качественных запчастей и компонентов, нужные
+                                для вашей модели лифтового устройства.
+                            </p>
+                        </div>                    
+                    </div>
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </section> <!-- end of services -->
+
+        <!-- Work -->
+        <section class="work d-flex align-items-center py-5" >
+            <div class="container-fluid text-light">
+                <div class="row">
+                    <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right">
+                        <img class="img-fluid" src="./assets/images/about.jpeg" alt="work">        
+                    </div>
+                    <div class="col-lg-5 d-flex align-items-center px-4 py-3" data-aos="">
+                        <div class="row works">
+                            <div class="text-center text-lg-start py-4 pt-lg-0">
+                                <h2 class="py-2">Каждый 5 лифт в Республике</h2>
+                                <p class="para-light">движут лебедки нашего производства</p>
+                            </div>
+                            <div class="container" data-aos="fade-up">
+                                <div class="row g-5">
+                                    <div class="col-6 text-start" >
+                                        <i class="fas fa-briefcase fa-2x text-start"></i>
+                                        <h2 class="purecounter" data-purecounter-start="0" data-purecounter-end="1258" data-purecounter-duration="3">1</h2>
+                                        <p>ЗАВЕРШЕННЫХ ПРОЕКТА</p>
+                                    </div>
+                                    <div class="col-6" >
+                                        <i class="fas fa-award fa-2x"></i>
+                                        <h2 class="purecounter" data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="3">1</h2>
+                                        <p>НАГРАД</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <i class="fas fa-users fa-2x"></i>
+                                        <h2 class="purecounter" data-purecounter-start="0" data-purecounter-end="1255" data-purecounter-duration="3">1</h2>
+                                        <p>АКТИВНЫХ КЛИЕНТА</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <i class="fas fa-clock fa-2x"></i>
+                                        <h2 class="purecounter" data-purecounter-start="0" data-purecounter-end="1157" data-purecounter-duration="3">1</h2>
+                                        <p>ХОРОШИХ ОТЗЫВА</p>
+                                    </div>
+                                </div>
+                            </div> <!-- end of container -->
+                        </div> <!-- end of row -->
+                    </div> <!-- end of col-lg-5 -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </section> <!-- end of work -->
+
+        <!-- Contact form -->
+        <section class="contact d-flex align-items-center py-5" id="contact">
+            <div class="container-fluid text-light">
+                <form autocomplete="off" novalidate="novalidate" id="otis_form">
+                    <div class="contact-row row">
+                        <div class="col d-flex justify-content-center justify-content-lg-end align-items-center px-lg-5" data-aos="fade-right">
+                            <div style="width:90%">
+                                <div class="text-center py-4 pt-lg-0">
+                                    <h2 class="py-2">Заказать звонок</h2>
+                                    <p class="para-light">Оставьте свои контактные данные и мы подберем оптимальное решение для вас</p>
+                                </div>
+                                <div>
+                                    <div class="row" >
+                                        <div class="col-lg-6">
+                                            <div class="form-group py-2">
+                                                <div class="control-wrapper">
+                                                    <div class="input-wrapper">
+                                                        <input type="text" id="basic_name" class="form-control form-control-input" id="exampleFormControlInput1" placeholder="Имя">
+                                                    </div>
+                                                </div>
+                                            </div>                                
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group py-2">
+                                                <input type="phone" id="basic_phone" class="form-control input form-control-input" id="exampleFormControlInput2" placeholder="Контактный номер">
+                                            </div>                                 
+                                        </div>
+                                        <div class="form-group py-1">
+                                            <div class="form-group py-2">
+                                                <input type="text" id="basic_city" class="form-control form-control-input" id="exampleFormControlInput1" placeholder="Область и город">
+                                            </div>                                 
+                                        </div>
+                                        <div class="form-group py-2">
+                                            <select class="form-control py-2 custom-select form-control form-control-input" name="deal">
+                                                <option class="select-disable" selected disabled>Тип обращения</option>
+                                                <option>Покупка нового оборудования</option>
+                                                <option>Сервисное обслуживание</option>
+                                                <option>Ремонт оборудования</option>
+                                                <option>Оставить жалобу</option>
+                                                <option>Другое</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group py-1">
+                                        <input type="email" id="basic_email" class="form-control form-control-input" id="exampleFormControlInput3" placeholder="Почта для связи">
+                                    </div>  
+                                    <div class="form-group py-2">
+                                        <textarea class="form-control form-control-input" id="exampleFormControlTextarea1" rows="6" placeholder="Комментарий"></textarea>
+                                    </div>                            
+                                </div>
+                                <div class="my-3">
+                                    <button class="btn form-control-submit-button control-wrapper form-btn" type="submit">Отправить</button>
+                                </div>
+                            </div> <!-- end of div -->
+                        </div> <!-- end of col -->
+                        <!-- <div class="col-lg-6 d-flex align-items-center" data-aos="fade-down"> -->
+                            <!-- <img class="img-fluid d-none d-lg-block" src="./assets/images/map-otis.JPG" alt="map">         -->
+                        <!-- </div> end of col -->
+                    </div> <!-- end of row -->
+                </div> <!-- end of container -->
+            </form>
+        </section> <!-- end of contact -->
+
+        <!-- Testimonials -->
+        <div class="slider-1 testimonial text-light d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="text-center w-lg-75 m-auto pb-4">
+                        <h2 class="py-2">Наши работы</h2>
+                    </div>
+                </div> <!-- end of row -->
+                <div class="row p-2" data-aos="zoom-in">
+                    <div class="col-lg-12">
+
+                        <!-- Card Slider -->
+                        <div class="slider-container">
+                            <div class="swiper-container card-slider">
+                                <div class="swiper-wrapper">
+                                    
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <div class="testimonial-card">
+                                            <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam commodi officia laborum qui iste quidem!</p> -->
+                                        
+                                            <div class="d-flex">
+                                                <div>
+                                                    <img class="avatar" src="./assets/images/slide-1.jpg" alt="testimonial">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- end of swiper-slide -->
+                                    <!-- end of slide -->
+            
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <div class="testimonial-card">
+                                            <div class="d-flex">
+                                                <div>
+                                                    <img class="avatar" src="./assets/images/slide-2.jpg" alt="testimonial">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- end of swiper-slide -->
+                                    <!-- end of slide -->
+            
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <div class="testimonial-card">
+                                            <div class="d-flex">
+                                                <div>
+                                                    <img class="avatar" src="./assets/images/slide-3.jpg" alt="testimonial">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- end of swiper-slide -->
+                                    <!-- end of slide -->
+            
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <div class="testimonial-card">
+                                            <div class="d-flex">
+                                                <div>
+                                                    <img class="avatar" src="./assets/images/slide-4.jpg" alt="testimonial">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- end of swiper-slide -->
+                                    <!-- end of slide -->
+
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <div class="testimonial-card">
+                                            <div class="d-flex">
+                                                <div>
+                                                    <img class="avatar" src="./assets/images/slide-5.jpg" alt="testimonial">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- end of swiper-slide -->
+                                    <!-- end of slide -->
+
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <div class="testimonial-card">
+                                            <div class="d-flex">
+                                                <div>
+                                                    <img class="avatar" src="./assets/images/slide-6.jpg" alt="testimonial">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- end of swiper-slide -->
+                                    <!-- end of slide -->
+
+                                </div> <!-- end of swiper-wrapper -->
+            
+                                <!-- Add Arrows -->
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <!-- end of add arrows -->
+            
+                            </div> <!-- end of swiper-container -->
+                        </div> <!-- end of slider-container -->
+                        <!-- end of card slider -->
+
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of testimonials -->
+
+        
+        <div id="accordion" class="accordion">
+            <h2 class="py-2 title-accordion">ВОПРОС-ОТВЕТ</h2>
+            <div class="card-accordion">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn collapsed btn-accordion" data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Можно ли установить лифт в частный двухэтажный дом, который уже отстроен?
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body__accordion">
+                    Конечно, если для подъемника есть необходимое пространство внутри здания. Если лишних квадратных метров нет, мы предлагаем другой вариант, не менее удобный и функциональный, наружную фасадную конструкцию. 
+                </div>
+              </div>
+            </div>
+            <div class="card-accordion" >
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn collapsed btn-accordion" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    В коттедже нет специальной шахты, но есть свободная зона размером 1,5 х 1,5 м. Какая модель лифта подойдет и возможен ли вообще монтаж?
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body__accordion">
+                    Да, установка возможна. Специалисты прорубят перекрытия и смонтируют металлокаркасную шахту. К ней подойдет панорамное остекление. 
+                </div>
+              </div>
+            </div>
+            <div class="card-accordion">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn collapsed btn-accordion" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Сколько человек поместится в такой лифт в 2-этажном доме?
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body__accordion">
+                    Исходя из габаритов 1,5 х 1,5 м – 3 человека. 
+                </div>
+              </div>
+            </div>
+            <div class="card-accordion">
+                <div class="card-header" id="headingFor">
+                  <h5 class="mb-0">
+                    <button class="btn collapsed btn-accordion" data-toggle="collapse" data-target="#collapseFor" aria-expanded="false" aria-controls="collapseThree">
+                      Чем отличается лифт от подъемника?
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseFor" class="collapse" aria-labelledby="headingFor" data-parent="#accordion">
+                  <div class="card-body__accordion">
+                    Прежде всего – плавностью хода. Лифт со средней скоростью 0,5 м/с мягко трогается и мягко тормозит. Также он оснащен всеми опциями безопасности. 
+                    Подъемники двигаются медленнее – 0,15 м/с. Жестче стартуют и останавливаются, издают больше шума, однако стоят дешевле в среднем на 50%.
+                  </div>
+                </div>
+            </div>
+            <div class="card-accordion">
+                <div class="card-header" id="headingFive">
+                  <h5 class="mb-0">
+                    <button class="btn collapsed btn-accordion" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                      Какой привод лучше - электрический или гидравлический?
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                  <div class="card-body__accordion">
+                    Своим клиентам мы даем свободу выбора, но чаще рекомендуем гидравлику. В ней конструктивно заложен базовый принцип безопасности. При отключении света, что случается нередко, кабина автоматически опускается на нижний этаж, двери открываются. При возобновлении подачи питания модель самотестируется, проводит автодиагностику на наличие неполадок. Если поломки обнаружены, нужно вызвать сервисную бригаду. 
+                    При аналогичной ситуации с электрическим коттеджным лифтом пассажирам пришлось бы ждать мастеров в кабине.
+                  </div>
+                </div>
+            </div>
+            <div class="card-accordion">
+                <div class="card-header" id="heading-6">
+                  <h5 class="mb-0">
+                    <button class="btn collapsed btn-accordion" data-toggle="collapse" data-target="#collapse-6" aria-expanded="false" aria-controls="collapseThree">
+                      Какая может быть отделка внутри?
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapse-6" class="collapse" aria-labelledby="heading-6" data-parent="#accordion">
+                  <div class="card-body__accordion">
+                    Абсолютно любая. Все зависит только от ваших пожеланий и вкусов. Все материалы, применяемые для декорирования интерьера, подходят и для оформления кабин. Для создания эксклюзивного дизайна используют искусственную кожу, ламинат, натуральное дерево, шпон. В ход идут и мрамор, линолеум, керамогранит, мозаика, пластик и пр. 
+                    Компания «Прайм Лифт» предложит вам несколько дизайн-проектов на выбор либо воплотит ваш индивидуальный вариант отделки лифта для частного коттеджа. 
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Location -->
+        <section class="location text-light py-5">
+            <div class="container" data-aos="zoom-in">
+                <div class="row">
+                    <div class="col-lg-3 d-flex align-items-center">
+                        <div class="p-2"><i class="far fa-map fa-3x"></i></div>
+                        <div class="ms-2">
+                            <h6>Адрес:</h6>
+                            <p>83076, Донецк, Пархоменко 11</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 d-flex align-items-center" >
+                        <div class="p-2"><i class="fas fa-mobile-alt fa-3x"></i></div>
+                        <div class="ms-2">
+                            <h6>Телефон:</h6>
+                            <p>0 (62) 306-07-55</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 d-flex align-items-center" >
+                        <div class="p-2"><i class="far fa-envelope fa-3x"></i></div>
+                        <div class="ms-2">
+                            <h6>E-mail:</h6>
+                            <p>otis-don@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 d-flex align-items-center" >
+                        <div class="p-2"><i class="far fa-clock fa-3x"></i></div>
+                        <div class="ms-2">
+                            <h6> Режим работы:</h6>
+                            <p>08:15 - 12:00</p>
+                        </div>
+                    </div>
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </section> <!-- end of location -->
+        
+        <!-- Back To Top Button -->
+        <button onclick="topFunction()" id="myBtn">
+            <img src="assets/images/up-arrow.png" alt="alternative">
+        </button>
+        <!-- end of back to top button -->
+
+        <!-- Footer -->
+        <section class="footer text-light">
+            <div class="container">
+                <div class="row" style="justify-content: space-between" data-aos="fade-right">
+                    <div class="col-lg-3 py-4 py-md-5">
+                        <div class="d-flex align-items-center">
+                            <h4 class="">OTIS-DON</h4>
+                        </div>
+                        <p class="py-3 para-light">Мы производим пассажирские и грузовые лифты грузоподъемностью от 400 до 3000 кг,
+                            больничные лифты, лифты для административных зданий, торговых центров, дошкольных 
+                            и образовательных учреждений</p>
+                        </div> <!-- end of col -->
+
+                    <div class="col-lg-3 py-4 py-md-5">
+                        <div>
+                            <h4 class="py-2">Быстрые ссылки</h4>
+                            <div class="d-flex align-items-center py-2">
+                                <i class="fas fa-caret-right"></i>
+                                <a href="#about"><p class="ms-3">О нас</p></a>
+                            </div>
+                            <div class="d-flex align-items-center py-2">
+                                <i class="fas fa-caret-right"></i>
+                                <a href="#"><p class="ms-3">Услуги</p></a>
+                            </div>
+                            <div class="d-flex align-items-center py-2">
+                                <i class="fas fa-caret-right"></i>
+                                <a href="#"><p class="ms-3">Продукция</p></a>
+                            </div>
+                            <div class="d-flex align-items-center py-2">
+                                <i class="fas fa-caret-right"></i>
+                                <a href="#"><p class="ms-3">Контакты</p></a>
+                            </div>
+                        </div>
+                    </div> <!-- end of col -->
+
+                    <div class="col-lg-4 py-4 py-md-5">
+                        <div class="d-flex align-items-center">
+                            <h4>Подписаться на новости</h4>
+                        </div>
+                        <p class="py-3 para-light"></p>
+                        <div class="d-flex align-items-center">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control p-2" placeholder="Enter Email" aria-label="Recipient's email">
+                                <button class="btn-secondary text-light"><i class="fas fa-envelope fa-lg"></i></button>       
+                            </div>
+                        </div>
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </section> <!-- end of footer -->
+
+        <!-- Bottom -->
+        <div class="bottom py-2 text-light" >
+            <div class="container d-flex justify-content-between">
+                <div style="margin: 0 auto">
+                    <p>Copyright © OTIS-DON</p>
+                </div>
+            </div> <!-- end of container -->
+        </div> <!-- end of bottom -->
+
+        <!-- Scripts -->
+        <script src="./js/bootstrap.min.js"></script><!-- Bootstrap framework -->
+        <script src="./js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
+        <script src="./js/swiper.min.js"></script><!-- Swiper for image and text sliders -->
+        <script src="./js/aos.js"></script><!-- AOS on Animation Scroll -->
+        <script src="./js/script.js"></script>  <!-- Custom scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
